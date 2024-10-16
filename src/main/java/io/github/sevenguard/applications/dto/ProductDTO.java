@@ -12,7 +12,6 @@ public class ProductDTO {
 
     @JsonProperty(value = "id")
     private Long id;
-
     @JsonProperty(value = "name")
     @NotBlank(message = "Product name is required")
     private String name;
